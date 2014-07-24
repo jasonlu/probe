@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @target.url %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @target.user_id %>
+</p>
+
+<p>
+  <strong>Interval:</strong>
+  <%= @target.interval %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @target.title %>
+</p>
+
+<%= link_to 'Edit', edit_target_path(@target) %> |
+<%= link_to 'Back', targets_path %>
